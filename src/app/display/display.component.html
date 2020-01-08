@@ -1,0 +1,8 @@
+<div class="contaner">
+    <div class="row p-5">
+        
+            <app-displaycard *ngFor="let lin of contac|async ; let i = index" [fun]="lin" [ind]="i" ></app-displaycard>
+
+    </div>
+</div>
+
